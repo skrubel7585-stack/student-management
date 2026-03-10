@@ -30,7 +30,7 @@ A React Native mobile application that connects students, parents, and mentors t
 
 - Node.js (v14 or higher)
 - npm or yarn
-- Expo CLI (`npm install -g expo-cli`)
+- Expo CLI 
 - iOS Simulator (Mac only) or Android Emulator
 - Expo Go app on your physical device (optional)
 
@@ -38,5 +38,5 @@ A React Native mobile application that connects students, parents, and mentors t
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/skrubel7585-stack/student-management.git
 cd Mentora

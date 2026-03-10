@@ -35,18 +35,9 @@ const AppContent = () => {
   return (
     
     <View style={{ flex: 1, backgroundColor: getStatusBarColor() }}>
-      {/* স্ট্যাটাস বার সম্পূর্ণ লুকানোর জন্য এই লাইন */}
+      
       <StatusBar hidden={true} />
       
-      {/* অথবা নিচের লাইন ব্যবহার করতে পারেন ট্রান্সলুসেন্ট জন্য */}
-      {/* <StatusBar 
-        barStyle="light-content" 
-        backgroundColor="transparent"
-        translucent={true}
-      /> */}
-      
-      {/* SafeAreaView সরিয়ে দিচ্ছি কারণ স্ট্যাটাস বার হাইড করলে এটার দরকার নেই */}
-      {/* <SafeAreaView style={{ flex: 0, backgroundColor: getStatusBarColor() }} /> */}
       
       <View style={{ 
         flex: 1, 
